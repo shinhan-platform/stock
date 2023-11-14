@@ -1,13 +1,30 @@
-import React from 'react';
-import { View, Text } from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, TouchableOpacity } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 import { styles } from '../styles/StockItemStyle';
 
-const StockItem = ({ name, price, rate }) => {
+const StockItem = ({no, name, price, rate }) => {
+  const [selected, setSelected] = useState(false);
+
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>{name}</Text>
-      <Text style={styles.text}>{price}</Text>
-      <Text style={styles.text}>{rate}</Text>
+      <View style={styles.leftContainer}>
+        <Text style={styles.no}>{no}</Text>
+        <Text style={styles.name}>{name}</Text>
+      </View>
+      <View style={styles.rightContainer}>
+        <Text style={styles.price}>{price}</Text>
+        <Text style={[styles.text, rate.startsWith('+') ? styles.redText : styles.blueText]}>
+          {rate}
+        </Text>
+        <TouchableOpacity onPress={() => setSelected(!selected)}>
+          <Icon
+            name={selected ? 'heart' : 'heart-o'}
+            size={20}
+            color={selected ? 'red' : 'gray'}
+          />
+        </TouchableOpacity>
+      </View>
     </View>
   );
 }

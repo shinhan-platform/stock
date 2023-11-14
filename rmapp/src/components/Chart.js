@@ -3,6 +3,7 @@ import { View } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
 import { Dimensions } from 'react-native';
 
+
 const Chart = () => {
   // 차트에 사용할 데이터
   const data = {
