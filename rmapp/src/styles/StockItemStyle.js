@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    padding: 10,
+    padding: 15,
     borderBottomWidth: 1,
 
     paddingVertical: 15, // 패딩 간격 조정
@@ -31,12 +31,13 @@ export const styles = StyleSheet.create({
     color: 'white',
   },
   price: {
-    fontSize: 20,
+    fontSize: 22,
     color: 'white',
     paddingRight: 10,
+    fontWeight: 'bold'
   },
   text: {
-    fontSize: 16,
+    fontSize: 20,
     color: 'white',
     fontWeight: 'bold',
     paddingRight: 10,

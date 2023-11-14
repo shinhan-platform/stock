@@ -13,12 +13,12 @@ const styles = StyleSheet.create({
   container: {
     paddingVertical: 10,
     paddingHorizontal: 15,
-    backgroundColor: '#2c3e50',  // 다크 배경 색상
   },
   title: {
-    fontSize: 18,
+    fontSize: 25,
     fontWeight: 'bold',
-    color: '#ecf0f1',  // 밝은 텍스트 색상
+    color: 'white',  // 밝은 텍스트 색상
+    marginTop : 13
   },
 });
 
