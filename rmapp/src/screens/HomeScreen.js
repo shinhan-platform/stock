@@ -1,13 +1,15 @@
 import React from 'react';
-import { ScrollView, FlatList } from 'react-native';
+import { ScrollView, View, FlatList } from 'react-native';
 import Header from '../components/Header';
 import Chart from '../components/Chart';
 import StockItem from '../components/StockItem';
-import BottomNav from '../components/BottomNav';
 import { mainStyles } from '../styles/mainStyles';
 import SectionTitle from '../components/SectionTitle';
 import MoreButton from '../components/MoreButton'; 
-import SectionNav from '../components/SectionNav'
+import SectionNav from '../components/SectionNav';
+import Genius from '../components/Genius';
+import BottomNav from '../components/BottomNav';
+
 
 
 const HomeScreen = () => {
@@ -38,7 +40,17 @@ const HomeScreen = () => {
       />
       <MoreButton  />
 
-      <BottomNav />
+      <SectionTitle title="주식의 신 따라하기 " />
+
+      <Genius />
+
+
+
+      <View style={mainStyles.contentContainer}>
+        <BottomNav />
+
+      </View>
+
     </ScrollView>
   );
 }

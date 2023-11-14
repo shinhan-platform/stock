@@ -1,16 +1,31 @@
-import React from 'react';
-import { View, Text } from 'react-native';
-import { styles } from '../styles/BottomNav';
+// BottomNav.js
 
-const BottomNav = ({ title }) => {
+import React from 'react';
+import { View, TouchableOpacity, Text } from 'react-native';
+import { AntDesign, FontAwesome } from '@expo/vector-icons'; // 필요한 아이콘 라이브러리를 import하세요.
+import styles from '../styles/BottomNavStyle'; // BottomNav 스타일을 불러옵니다.
+
+function BottomNav() {
   return (
-    <View style={styles.header}>
-      <Text style={styles.title}>{title}여기는 아래 navi 자리 </Text>
-      {/* 필요한 경우 여기에 추가 버튼이나 로고 포함 */}
+    <View style={styles.container}>
+      <TouchableOpacity style={styles.tabItem}>
+        <AntDesign name="home" size={24} color="white" />
+        <Text style={styles.tabItem}>홈</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.tabItem}>
+        <AntDesign name="hearto" size={24} color="gray" />
+        <Text style={styles.text}>관심</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.tabItem}>
+        <FontAwesome name="line-chart" size={24} color="gray" />
+        <Text style={styles.text}>주식</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.tabItem}>
+        <AntDesign name="menuunfold" size={24} color="gray" />
+        <Text style={styles.text}>전체</Text>
+      </TouchableOpacity>
     </View>
   );
 }
-
-
 
 export default BottomNav;

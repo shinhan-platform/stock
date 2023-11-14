@@ -6,9 +6,9 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: 15,
-    borderBottomWidth: 1,
-
+    backgroundColor :"#40404042",
     paddingVertical: 15, // 패딩 간격 조정
+    
   },
   leftContainer: {
     flexDirection: 'row',
