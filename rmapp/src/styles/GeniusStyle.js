@@ -1,26 +1,29 @@
+// GeniusStyle.js
 import { StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create({
+export default StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'space-between',
-    alignItems: 'center',
+    // ScrollView 스타일
+    paddingHorizontal: 10,
+    paddingVertical: 20,
     backgroundColor :"#40404042",
-    padding : 20
 
-  },
-  imageRow: {
-    flexDirection: 'row',
   },
   imageContainer: {
-    marginRight: 10,
+    // 이미지와 텍스트 컨테이너 스타일
     alignItems: 'center',
-    borderRadius: 50, // 원형 모양으로 만들기 위한 속성
-    padding: 25, // 아이콘 주변의 간격 조절
+    marginRight: 30,
+
   },
-  name: {
-    marginTop: 5,
+  image: {
+    width: 75,
+    height: 75,
+    borderRadius: 50, // 원형 이미지
+    marginBottom: 8,
+  },
+  text: {
+    // 텍스트 스타일
+    fontSize: 16,
+    color: 'white',
   },
 });
-
-export default styles;

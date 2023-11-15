@@ -34,13 +34,13 @@ const styles = StyleSheet.create({
   },
   selectedMenuItem: {
     borderBottomColor : "white",
-    borderBottomWidth: 2
+    borderBottomWidth: 3
   },
   menuText: {
     color: 'gray',
   },
   selectedMenuText: {
-    fontSize: 16,
+    fontSize: 18,
     color: 'white', 
   },
 });
