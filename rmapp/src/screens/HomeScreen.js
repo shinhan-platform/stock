@@ -81,7 +81,7 @@ const HomeScreen = () => {
       <SectionTitle title="주식의 신 따라하기 " />
       <Genius images={images} />
 
-      <SectionTitle title="따근따근 신한 리포트" />
+      <SectionTitle title="따끈따끈 신한 리포트" />
       <Report />
       </ScrollView>
 
