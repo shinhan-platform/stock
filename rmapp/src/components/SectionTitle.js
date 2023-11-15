@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 25,
     fontWeight: 'bold',
-    color: 'white',  // 밝은 텍스트 색상
+    color: 'white', 
     marginTop : 13
   },
 });

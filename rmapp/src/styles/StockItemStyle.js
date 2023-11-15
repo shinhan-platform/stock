@@ -51,7 +51,7 @@ export const styles = StyleSheet.create({
   },
   number: {
     fontWeight: 'bold',
-    marginRight: 10, // Add some spacing between the number and the name
-    color: '#333', // Adjust color as needed
+    marginRight: 10, 
+    color: '#333', 
   },
 });

@@ -2,9 +2,8 @@
 
 import React from 'react';
 import { View, TouchableOpacity, Text } from 'react-native';
-import { AntDesign, FontAwesome } from '@expo/vector-icons'; // 필요한 아이콘 라이브러리를 import하세요.
-import styles from '../styles/BottomNavStyle'; // BottomNav 스타일을 불러옵니다.
-
+import { AntDesign, FontAwesome } from '@expo/vector-icons'; 
+import styles from '../styles/BottomNavStyle';
 function BottomNav() {
   return (
     <View style={styles.container}>
