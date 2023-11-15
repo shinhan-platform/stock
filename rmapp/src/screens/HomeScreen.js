@@ -8,6 +8,7 @@ import SectionTitle from '../components/SectionTitle';
 import MoreButton from '../components/MoreButton'; 
 import SectionNav from '../components/SectionNav';
 import Genius from '../components/Genius';
+import Report from '../components/Report'
 import BottomNav from '../components/BottomNav';
 
 
@@ -76,7 +77,10 @@ const HomeScreen = () => {
 
       <SectionTitle title="주식의 신 따라하기 " />
       <Genius images={images} />
+
       <SectionTitle title="따근따근 신한 리포트" />
+      <Report />
+
 
 
 

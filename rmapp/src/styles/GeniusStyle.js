@@ -7,6 +7,7 @@ export default StyleSheet.create({
     paddingHorizontal: 10,
     paddingVertical: 20,
     backgroundColor :"#40404042",
+    marginBottom:20
 
   },
   imageContainer: {
