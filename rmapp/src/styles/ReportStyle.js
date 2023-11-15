@@ -4,7 +4,7 @@ const ReportStyle = StyleSheet.create({
   container: {
     flexDirection: 'row', // 가로 배치
     overflow: 'scroll', // 스크롤 가능하도록
-    marginBottom: 20, // 각 정사각형 간의 간격
+    marginBottom: 50, // 각 정사각형 간의 간격
     backgroundColor :"#40404042",
 
 

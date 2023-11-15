@@ -5,9 +5,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
-    backgroundColor: '#3030303',
-    height: 80,
+    backgroundColor: 'black',
+    height: 60,
+  
   },
+  
   tabItem: {
     alignItems: 'center',
     justifyContent: 'center', // 아이콘과 텍스트를 세로 중앙 정렬

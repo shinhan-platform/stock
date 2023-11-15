@@ -1,5 +1,6 @@
 import React from 'react';
-import { ScrollView, View, Text, FlatList } from 'react-native';
+import { ScrollView, View, SafeAreaView, FlatList } from 'react-native';
+
 import Header from '../components/Header';
 import Chart from '../components/Chart';
 import StockItem from '../components/StockItem';
@@ -51,6 +52,8 @@ const HomeScreen = () => {
   ];
 
   return (
+    <SafeAreaView style={{ flex: 1 }}>
+
     <ScrollView style={mainStyles.container}>
       <Header />
       <Chart />
@@ -80,17 +83,20 @@ const HomeScreen = () => {
 
       <SectionTitle title="따근따근 신한 리포트" />
       <Report />
+      </ScrollView>
 
 
 
-
-
-      <View style={mainStyles.contentContainer}>
+      <View style={mainStyles.bottomNav}>
         <BottomNav />
-
       </View>
 
-    </ScrollView>
+      </SafeAreaView>
+
+
+
+
+
   );
 }
 
