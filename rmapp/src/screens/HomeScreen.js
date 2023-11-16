@@ -56,6 +56,8 @@ const HomeScreen = () => {
 
     <ScrollView style={mainStyles.container}>
       <Header />
+
+      <SectionTitle title="오늘의 지수" />
       <Chart />
 
       <SectionTitle title="실시간 랭킹" />
@@ -92,10 +94,6 @@ const HomeScreen = () => {
       </View>
 
       </SafeAreaView>
-
-
-
-
 
   );
 }
