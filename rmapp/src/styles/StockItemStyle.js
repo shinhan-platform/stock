@@ -22,12 +22,12 @@ export const styles = StyleSheet.create({
     
   },
   no: {
-    fontSize: 15,
+    fontSize: 13,
     color: 'skyblue',
     paddingRight: 10,
   },
    name: {
-    fontSize: 20,
+    fontSize: 17,
     color: 'white',
   },
   price: {
@@ -37,7 +37,7 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   text: {
-    fontSize: 15,
+    fontSize: 14,
     color: 'white',
     fontWeight: 'bold',
     paddingRight: 10,

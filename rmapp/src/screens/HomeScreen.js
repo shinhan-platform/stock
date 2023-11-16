@@ -17,7 +17,7 @@ import BottomNav from '../components/BottomNav';
 const HomeScreen = () => {
   const stockData1 = [
     { no : 1, name: '삼성전자', price: '82,000', rate: '+0.5%' },
-    { no : 2, name: 'SK하이닉스', price: '110,000', rate: '+1.2%' },
+    { no : 2, name: 'SK하이닉스', price: '40,400', rate: '+1.2%' },
     { no : 3, name: 'LG전자', price: '150,000', rate: '-0.8%' },
     { no : 4, name: '넥스트아이', price: '82,000', rate: '+0.5%' },
     { no : 5, name: '테고사이언스', price: '110,000', rate: '+1.2%' },
@@ -28,7 +28,7 @@ const HomeScreen = () => {
 
   const stockData2 = [
     { no : 1, name: '셀릭틱스', price: '82,000', rate: '+0.5%' },
-    { no : 2, name: '아메리칸 라소시스', price: '110,000', rate: '+1.2%' },
+    { no : 2, name: '아메리칸 라소시스', price: '10,000', rate: '+1.2%' },
     { no : 3, name: '압사이', price: '150,000', rate: '-0.8%' },
     { no : 4, name: '닉스', price: '82,000', rate: '+0.5%' },
     { no : 5, name: '테고사이언스', price: '110,000', rate: '+1.2%' },

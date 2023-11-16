@@ -37,16 +37,14 @@ const IndexItem = ({ name, price, volatility, chartData }) => {
             yAxisInterval={1}
             chartConfig={{
                 color: (opacity = 1) => lineColor,
-                labelColor: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
-                style: {
-                    borderRadius: 10,
-                },
                 propsForDots: {
                     r: '0',
                 },
                 propsForBackgroundLines: {
                     display: 'none',
                 },
+                backgroundGradientFrom: '#333',
+                backgroundGradientTo: '#333'
             }}
             bezier
             withVerticalLabels={false}

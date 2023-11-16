@@ -1,8 +1,9 @@
 import React from 'react';
-import { ScrollView, View, Text } from 'react-native';
+import { ScrollView, View, Text, TouchableOpacity, Linking } from 'react-native';
 import ReportStyle from '../styles/ReportStyle';
 
 const reports = [
+  
   {
     id: 1,
     subtitle: '해외',
@@ -12,8 +13,8 @@ const reports = [
   {
     id: 2,
     subtitle: 'daily',
-    title: '신한 생각',
-    date: '(2023-11-16)',
+    title: '+ github',
+    date: '(go to github)',
   },
   {
     id: 3,
@@ -42,14 +43,24 @@ const reports = [
 ];
 
 const Report = () => {
+  const handlePress = () => {
+    const url = 'https://github.com/shinhan-platform/stock.git';
+    Linking.openURL(url).catch((err) => console.error("Couldn't load page", err));
+  };
+
+
   return (
     <ScrollView horizontal={true} style={ReportStyle.container}>
       {reports.map((report) => (
-        <View key={report.id} style={ReportStyle.square}>
-          <Text style={ReportStyle.subtitle}>{report.subtitle}</Text>
-          <Text style={ReportStyle.title}>{report.title}</Text>
-          <Text style={ReportStyle.date}>{report.date}</Text>
-        </View>
+        <TouchableOpacity key={report.id} onPress={handlePress}>
+
+          <View key={report.id} style={ReportStyle.square}>
+            <Text style={ReportStyle.subtitle}>{report.subtitle}</Text>
+            <Text style={ReportStyle.title}>{report.title}</Text>
+            <Text style={ReportStyle.date}>{report.date}</Text>
+          </View>
+        </TouchableOpacity>
+
       ))}
     </ScrollView>
   );

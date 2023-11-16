@@ -12,19 +12,19 @@ export const styles= StyleSheet.create({
     name: {
         color: '#fff',
         fontWeight: 'bold',
-        fontSize: 15,
+        fontSize: 16,
         padding: 1.5,
     },
     price: {
         color: '#fff',
         fontWeight: 'bold',
-        fontSize: 18,
+        fontSize: 20,
         padding: 1.5,
     },
     positiveVolatility: {
         color: 'red',
         fontWeight: 'bold',
-        fontSize: 14,
+        fontSize: 15,
         padding: 1.5,
     },
     negativeVolatility: {
