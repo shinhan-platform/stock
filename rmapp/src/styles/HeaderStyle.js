@@ -3,7 +3,7 @@
 
 export const styles = StyleSheet.create({
     header: {
-        height: 100,
+        height: 80,
         alignItems: 'center',
         justifyContent: 'center',
         borderBottomColor : "grey",
