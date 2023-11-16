@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: 15,
-    backgroundColor :"#40404042",
+    backgroundColor :"#4040404",
     paddingVertical: 15, // 패딩 간격 조정
     
   },
@@ -22,22 +22,22 @@ export const styles = StyleSheet.create({
     
   },
   no: {
-    fontSize: 20,
+    fontSize: 15,
     color: 'skyblue',
     paddingRight: 10,
   },
    name: {
-    fontSize: 22,
+    fontSize: 20,
     color: 'white',
   },
   price: {
-    fontSize: 20,
+    fontSize: 18,
     color: 'white',
     paddingRight: 15,
     fontWeight: 'bold'
   },
   text: {
-    fontSize: 20,
+    fontSize: 15,
     color: 'white',
     fontWeight: 'bold',
     paddingRight: 10,

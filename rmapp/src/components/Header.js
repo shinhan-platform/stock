@@ -10,7 +10,7 @@ const Header = ({ title }) => {
                     source={require('../img/shinhan.png')}
                     style={styles.logo}
                 />
-                <Text style={styles.title}>{title} Shinhan Beta</Text>
+                <Text style={styles.title}>{title} SHINHAN BETA +</Text>
             </View>
         </View>
     );

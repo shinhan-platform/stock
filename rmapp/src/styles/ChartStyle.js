@@ -3,8 +3,8 @@ import { StyleSheet } from 'react-native';
 export const styles= StyleSheet.create({
     indexBox: {
         backgroundColor: '#333',
-        width: 180,
-        height: 180,
+        width: 150,
+        height: 150,
         padding: 16,
         margin: 8,
         borderRadius: 10,
@@ -12,7 +12,7 @@ export const styles= StyleSheet.create({
     name: {
         color: '#fff',
         fontWeight: 'bold',
-        fontSize: 14,
+        fontSize: 15,
         padding: 1.5,
     },
     price: {
@@ -35,7 +35,7 @@ export const styles= StyleSheet.create({
     },
     chart: {
         marginHorizontal: 10,
-        width: 120,
-        height: 100,
+        width: 100,
+        height: 60,
     },
 });

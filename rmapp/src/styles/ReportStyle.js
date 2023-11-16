@@ -18,7 +18,7 @@ const ReportStyle = StyleSheet.create({
     borderRadius :15
   },
   subtitle: {
-    fontSize: 16, // 소제목 글자 크기
+    fontSize: 14, // 소제목 글자 크기
     marginBottom: 5, // 제목과의 간격
     marginBottom : 10,
     color : '#4834d4',
@@ -26,13 +26,13 @@ const ReportStyle = StyleSheet.create({
 
   },
   title: {
-    fontSize: 20, // 메인 제목 글자 크기
+    fontSize: 18, // 메인 제목 글자 크기
     marginBottom: 5, // 날짜와의 간격
     fontWeight: 'bold', // 소제목 굵기
 
   },
   date: {
-    fontSize: 14, // 날짜 글자 크기
+    fontSize: 12, // 날짜 글자 크기
     color: 'gray', // 회색
 
   },

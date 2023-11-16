@@ -3,22 +3,25 @@
 
 export const styles = StyleSheet.create({
     header: {
-        height: 60,
+        height: 100,
         alignItems: 'center',
         justifyContent: 'center',
+        borderBottomColor : "#4040404",
+        borderBottomWidth: 1
       },
+
     titleContainer: {
         flexDirection: 'row', // Align items horizontally
         alignItems: 'center', // Center items vertically
     },
     title: {
         color: '#fff',
-        fontSize: 20,
+        fontSize: 25,
         fontWeight: 'bold',
     },
     logo: {
-        width: 20, // Set the width of the logo image
-        height: 20, // Set the height of the logo image
+        width: 25, // Set the width of the logo image
+        height: 23, // Set the height of the logo image
         marginLeft: 5, // Add some space between text and logo
     },
 });
